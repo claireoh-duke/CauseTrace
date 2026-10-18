@@ -11,4 +11,4 @@ npm run build                                 # production build into dist/
 
 Set `VITE_API_URL` at build/start time to point at a different backend address. The backend only allows CORS from `localhost`/`127.0.0.1` on ports 5173 and 4173.
 
-Graph drawing uses [Cytoscape.js](https://js.cytoscape.org/). See the top-level README for the full system description.
+Graph drawing uses [Cytoscape.js](https://js.cytoscape.org/). See the [technical guide](../docs/TECHNICAL_GUIDE.md) for the full system description.

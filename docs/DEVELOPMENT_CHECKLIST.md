@@ -1,4 +1,4 @@
-> **Historical development record.** This checklist was written while the backend and an earlier version of the interface were built (Stages 1–4). The user interface has since changed, so interface details below may be outdated, and the unit-test count has grown from 47 to 53. It is kept for transparency. For the current system see the top-level `README.md`; for the final comparison see `evaluation/`.
+> **Historical development record.** This checklist was written while the backend and an earlier version of the interface were built (Stages 1–4). The user interface has since changed, so interface details below may be outdated, and the unit-test count has grown from 47 to 53. It is kept for transparency. For the current system see the [technical guide](TECHNICAL_GUIDE.md); for the final comparison see `evaluation/`.
 
 # CauseTrace evaluation checklist
 
