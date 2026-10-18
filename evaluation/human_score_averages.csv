@@ -1,0 +1,9 @@
+condition,criterion,mean_score,evaluable_responses,na_responses,pending_responses
+Baseline Qwen3:4b,Traceability,,0,0,5
+Baseline Qwen3:4b,Evidence Transparency,,0,0,5
+Baseline Qwen3:4b,Evidence Faithfulness,,0,0,5
+Baseline Qwen3:4b,Causal Uncertainty,,0,0,5
+CauseTrace,Traceability,,0,0,5
+CauseTrace,Evidence Transparency,,0,0,5
+CauseTrace,Evidence Faithfulness,,0,0,5
+CauseTrace,Causal Uncertainty,,0,0,5

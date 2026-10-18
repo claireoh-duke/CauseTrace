@@ -1,0 +1,15 @@
+# CauseTrace backend, matching the packages installed in .venv (Python 3.9.6).
+# Versions are the ones the project was built and tested with; do not upgrade the ML stack casually.
+FlagEmbedding==1.4.2
+transformers==4.57.6
+torch==2.8.0
+faiss-cpu==1.13.0
+numpy==2.0.2
+pandas==2.3.3
+pyarrow==21.0.0
+networkx==3.2.1
+fastapi==0.128.8
+uvicorn==0.39.0
+pydantic==2.13.5
+httpx==0.28.1
+requests==2.32.5

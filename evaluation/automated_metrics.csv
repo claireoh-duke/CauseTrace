@@ -1,0 +1,11 @@
+case,condition,run_status,question,generated_claim_count,claim_count_definition,unique_cited_evidence_ids,citation_id_entries,valid_citation_entries_on_claimed_edge,citation_membership_rate,claims_with_valid_edge_citation,retrieved_candidate_paths,retrieval_truncated,retrieval_truncation_reason,paths_sent_to_model,pack_chars,unique_evidence_ids_in_pack,records_sent_occurrences,done_reason,output_tokens,output_token_limit,incomplete_llm_response,causal_wording_flags,errors,raw_json_parse_error
+Q1,Baseline Qwen3:4b,completed,How does inflation affect stock prices?,N/A,unstructured prose; not mechanically segmented,0,N/A,N/A,N/A,N/A,0,N/A,N/A,N/A,N/A,N/A,N/A,length,900,900,True,N/A,[],
+Q1,CauseTrace,completed,How does inflation affect stock prices?,6,structured claims array,7,7,7,1.0,6,50,True,max_paths,6,8654,18,21,stop,470,900,False,6,[],
+Q2,Baseline Qwen3:4b,completed,How does economic growth affect stock prices?,N/A,unstructured prose; not mechanically segmented,0,N/A,N/A,N/A,N/A,0,N/A,N/A,N/A,N/A,N/A,N/A,length,900,900,True,N/A,[],
+Q2,CauseTrace,completed,How does economic growth affect stock prices?,6,structured claims array,8,8,8,1.0,6,18,False,,6,8913,21,22,stop,450,900,False,0,[],
+Q3,Baseline Qwen3:4b,completed,How do interest rates affect investment?,N/A,unstructured prose; not mechanically segmented,0,N/A,N/A,N/A,N/A,0,N/A,N/A,N/A,N/A,N/A,N/A,length,900,900,True,N/A,[],
+Q3,CauseTrace,completed,How do interest rates affect investment?,6,structured claims array,12,12,12,1.0,6,50,True,max_paths,6,8806,20,23,stop,485,900,False,0,[],
+Q4,Baseline Qwen3:4b,completed,How does government spending affect economic growth?,N/A,unstructured prose; not mechanically segmented,0,N/A,N/A,N/A,N/A,0,N/A,N/A,N/A,N/A,N/A,N/A,length,900,900,True,N/A,[],
+Q4,CauseTrace,completed,How does government spending affect economic growth?,6,structured claims array,6,6,6,1.0,6,50,True,max_paths,6,7861,17,17,stop,434,900,False,0,[],
+Q5,Baseline Qwen3:4b,completed,How do monetary policy shocks affect exchange rates?,N/A,unstructured prose; not mechanically segmented,0,N/A,N/A,N/A,N/A,0,N/A,N/A,N/A,N/A,N/A,N/A,length,900,900,True,N/A,[],
+Q5,CauseTrace,completed,How do monetary policy shocks affect exchange rates?,6,structured claims array,9,9,9,1.0,6,50,True,max_paths,6,8891,19,21,stop,454,900,False,0,[],
